@@ -1,0 +1,15 @@
+C:\Users\j02\Documents\Aulinha\jogo-da-velha\Jogodavelha\bin\Debug\net10.0\Jogodavelha.exe
+C:\Users\j02\Documents\Aulinha\jogo-da-velha\Jogodavelha\bin\Debug\net10.0\Jogodavelha.deps.json
+C:\Users\j02\Documents\Aulinha\jogo-da-velha\Jogodavelha\bin\Debug\net10.0\Jogodavelha.runtimeconfig.json
+C:\Users\j02\Documents\Aulinha\jogo-da-velha\Jogodavelha\bin\Debug\net10.0\Jogodavelha.dll
+C:\Users\j02\Documents\Aulinha\jogo-da-velha\Jogodavelha\bin\Debug\net10.0\Jogodavelha.pdb
+C:\Users\j02\Documents\Aulinha\jogo-da-velha\Jogodavelha\obj\Debug\net10.0\Jogodavelha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\j02\Documents\Aulinha\jogo-da-velha\Jogodavelha\obj\Debug\net10.0\Jogodavelha.AssemblyInfoInputs.cache
+C:\Users\j02\Documents\Aulinha\jogo-da-velha\Jogodavelha\obj\Debug\net10.0\Jogodavelha.AssemblyInfo.cs
+C:\Users\j02\Documents\Aulinha\jogo-da-velha\Jogodavelha\obj\Debug\net10.0\Jogodavelha.csproj.CoreCompileInputs.cache
+C:\Users\j02\Documents\Aulinha\jogo-da-velha\Jogodavelha\obj\Debug\net10.0\Jogodavelha.sourcelink.json
+C:\Users\j02\Documents\Aulinha\jogo-da-velha\Jogodavelha\obj\Debug\net10.0\Jogodavelha.dll
+C:\Users\j02\Documents\Aulinha\jogo-da-velha\Jogodavelha\obj\Debug\net10.0\refint\Jogodavelha.dll
+C:\Users\j02\Documents\Aulinha\jogo-da-velha\Jogodavelha\obj\Debug\net10.0\Jogodavelha.pdb
+C:\Users\j02\Documents\Aulinha\jogo-da-velha\Jogodavelha\obj\Debug\net10.0\Jogodavelha.genruntimeconfig.cache
+C:\Users\j02\Documents\Aulinha\jogo-da-velha\Jogodavelha\obj\Debug\net10.0\ref\Jogodavelha.dll
