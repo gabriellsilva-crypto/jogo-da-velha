@@ -22,7 +22,7 @@ class Program
         char[,] tabuleiro =
         {
             { '1', '2', '3' },
-            { '4', '', '6' },
+            { '4', '5', '6' },
             { '7', '8', '9' }
         };
      
@@ -41,5 +41,11 @@ class Program
 
             if (!int.TryParse(Console.ReadLine(), out int posicao))
             {
+                 Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("Digite apenas números!");
+                Console.ResetColor();
+                Console.ReadKey();
+                continue;
+            }
     }
 }

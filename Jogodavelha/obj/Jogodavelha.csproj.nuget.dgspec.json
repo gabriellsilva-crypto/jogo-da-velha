@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\j02\\Desktop\\SA1 - Jogo da Velha\\Jogodavelha\\Jogodavelha.csproj": {}
+    "C:\\Users\\j02\\teste\\jogo-da-velha\\Jogodavelha\\Jogodavelha.csproj": {}
   },
   "projects": {
-    "C:\\Users\\j02\\Desktop\\SA1 - Jogo da Velha\\Jogodavelha\\Jogodavelha.csproj": {
+    "C:\\Users\\j02\\teste\\jogo-da-velha\\Jogodavelha\\Jogodavelha.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\j02\\Desktop\\SA1 - Jogo da Velha\\Jogodavelha\\Jogodavelha.csproj",
+        "projectUniqueName": "C:\\Users\\j02\\teste\\jogo-da-velha\\Jogodavelha\\Jogodavelha.csproj",
         "projectName": "Jogodavelha",
-        "projectPath": "C:\\Users\\j02\\Desktop\\SA1 - Jogo da Velha\\Jogodavelha\\Jogodavelha.csproj",
+        "projectPath": "C:\\Users\\j02\\teste\\jogo-da-velha\\Jogodavelha\\Jogodavelha.csproj",
         "packagesPath": "C:\\Users\\j02\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\j02\\Desktop\\SA1 - Jogo da Velha\\Jogodavelha\\obj\\",
+        "outputPath": "C:\\Users\\j02\\teste\\jogo-da-velha\\Jogodavelha\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\j02\\AppData\\Roaming\\NuGet\\NuGet.Config"
