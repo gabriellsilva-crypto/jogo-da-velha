@@ -36,5 +36,10 @@ class Program
               Console.ForegroundColor = ConsoleColor.Red
             Console.WriteLine($"\nVez do jogador {jogador}");
             Console.ResetColor();
+
+                Console.Write("Escolha uma posição (1-9): ");
+
+            if (!int.TryParse(Console.ReadLine(), out int posicao))
+            {
     }
 }
