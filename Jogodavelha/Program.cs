@@ -42,10 +42,11 @@ class Program
             if (!int.TryParse(Console.ReadLine(), out int posicao))
             {
                  Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine("Digite apenas números!");
+                Console.WriteLine("Digite apenas números!"); // funcionalidade alteração
                 Console.ResetColor();
-                Console.ReadKey();
+                Console.ReadKey()
                 continue;
             }
     }
 }
+  }
