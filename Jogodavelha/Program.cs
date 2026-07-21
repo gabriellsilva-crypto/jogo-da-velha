@@ -2,6 +2,22 @@
 using System;
 class Program 
   {
+    static string caixa = @"
+╔══════════════════════════════════════════╗
+║                                          ║
+║                                          ║
+║                                          ║
+║                                          ║
+║                                          ║
+║                                          ║
+║                                          ║
+║                                          ║
+║                                          ║
+║                                          ║
+║                                          ║
+║                                          ║
+╚══════════════════════════════════════════╝
+";
     static void Main(string[] args)
      {
         Console.Title = "Jogo da Velha";
