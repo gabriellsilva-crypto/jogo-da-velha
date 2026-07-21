@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Jogodavelha")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71bd0a3c500733b56a6a9856973af17b5d63ed12")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3fd67ae7086588664ab9c57cd341bc02f0662692")]
 [assembly: System.Reflection.AssemblyProductAttribute("Jogodavelha")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Jogodavelha")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
