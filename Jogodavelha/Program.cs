@@ -10,7 +10,7 @@ class Program
         Console.Write(caixa);
         Console.SetCursorPosition(3,3);
         Console.WriteLine("=======================");
-        Console.WriteLine("         JOGO DA VELHA");
+        Console.WriteLine("     JOGO DA VELHA     ");
         Console.WriteLine("=======================");
         Console.ResetColor();
 //adicionando cores
