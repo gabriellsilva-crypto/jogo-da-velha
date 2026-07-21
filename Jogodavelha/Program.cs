@@ -25,6 +25,16 @@ class Program
             { '4', '', '6' },
             { '7', '8', '9' }
         };
-     MostrarTabuleiro(tabuleiro);
+     
+        char jogador = 'X';
+
+        while (true)
+        {
+            Console.Clear();
+            MostrarTabuleiro(tabuleiro);
+
+              Console.ForegroundColor = ConsoleColor.Red
+            Console.WriteLine($"\nVez do jogador {jogador}");
+            Console.ResetColor();
     }
 }
