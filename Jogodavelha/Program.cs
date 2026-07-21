@@ -7,6 +7,8 @@ class Program
         Console.Title = "Jogo da Velha";
 
         Console.ForegroundColor = ConsoleColor.Cyan;
+        Console.Write(caixa);
+        Console.SetCursorPosition(3,3);
         Console.WriteLine("=======================");
         Console.WriteLine("         JOGO DA VELHA");
         Console.WriteLine("=======================");
@@ -44,7 +46,15 @@ class Program
                  Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Digite apenas números!"); // funcionalidade alteração
                 Console.ResetColor();
-                Console.ReadKey()
+                Console.ReadKey();
+                continue;
+            }
+              if (posicao < 1 || posicao > 9)
+            {
+                Console.ForegroundColor = ConsoleColor.Blue;
+                Console.WriteLine("Escolha um número entre 1 e 9!"); // escolha de numeração
+                Console.ResetColor();
+                Console.ReadKey();
                 continue;
             }
     }
