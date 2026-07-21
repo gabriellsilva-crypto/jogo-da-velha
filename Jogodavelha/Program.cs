@@ -25,5 +25,19 @@ class Program
             { '4', '5', '6' },
             { '7', '8', '9' }
         };
-     }
+     MostrarTabuleiro(tabuleiro);
     }
+
+    static void MostrarTabuleiro(char[,] tabuleiro)
+    {
+        Console.WriteLine();
+
+        Console.WriteLine($" {tabuleiro[0, 0]} | {tabuleiro[0, 1]} | {tabuleiro[0, 2]} ");
+        Console.WriteLine("---+---+---");
+        Console.WriteLine($" {tabuleiro[1, 0]} | {tabuleiro[1, 1]} | {tabuleiro[1, 2]} ");
+        Console.WriteLine("---+---+---");
+        Console.WriteLine($" {tabuleiro[2, 0]} | {tabuleiro[2, 1]} | {tabuleiro[2, 2]} ");
+
+        Console.WriteLine();
+    }
+}
