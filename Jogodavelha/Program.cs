@@ -1,36 +1,21 @@
-﻿//primeira etapa
+﻿
+//primeira etapa
 using System;
 class Program 
   {
-    static string caixa = @"
-╔══════════════════════════════════════════╗
-║                                          ║
-║                                          ║
-║                                          ║
-║                                          ║
-║                                          ║
-║                                          ║
-║                                          ║
-║                                          ║
-║                                          ║
-║                                          ║
-║                                          ║
-║                                          ║
-╚══════════════════════════════════════════╝
-";
     static void Main(string[] args)
      {
         Console.Title = "Jogo da Velha";
 
         Console.ForegroundColor = ConsoleColor.Cyan;
-        console.Write(caixa);
+        Console.Write(caixa);
         Console.SetCursorPosition(3,3);
         Console.WriteLine("=======================");
-        Console.WriteLine("         JOGO DA VELHA");
+        Console.WriteLine("     JOGO DA VELHA     ");
         Console.WriteLine("=======================");
         Console.ResetColor();
 //adicionando cores
-        Console.WriteLine();
+          Console.WriteLine();
         Console.WriteLine("Pressione ENTER para iniciar...");
         Console.ReadLine();
 
@@ -60,12 +45,33 @@ class Program
             if (!int.TryParse(Console.ReadLine(), out int posicao))
             {
                  Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine("Digite apenas números!");
+                Console.WriteLine("Digite apenas números!"); // funcionalidade alteração
                 Console.ResetColor();
                 Console.ReadKey();
                 continue;
             }
+              if (posicao < 1 || posicao > 9)
+            {
+                Console.ForegroundColor = ConsoleColor.Blue;
+                Console.WriteLine("Escolha um número entre 1 e 9!"); // escolha de numeração
+                Console.ResetColor();
+                Console.ReadKey();
+                continue;
+            }
+            break;
     }
 }
+static void MostrarTabuleiro(char[,] tabuleiro)
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            Console.WriteLine($" {tabuleiro[i,0]} | {tabuleiro[i,1]} | {tabuleiro[i,2]}");
 
-}
+            if (i < 2)
+                Console.WriteLine("---+---+---");
+        }
+    }
+  }
+        }
+
+  
