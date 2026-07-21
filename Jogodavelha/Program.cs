@@ -26,7 +26,7 @@
 
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.Write(caixa);
-            Console.SetCursorPosition(3, 3);
+            Console.SetCursorPosition(5, 1);
             Console.WriteLine("=======================");
             Console.WriteLine("     JOGO DA VELHA     ");
             Console.WriteLine("=======================");
