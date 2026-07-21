@@ -72,6 +72,6 @@ static void MostrarTabuleiro(char[,] tabuleiro)
         }
     }
   }
-        }
+        
 
   
