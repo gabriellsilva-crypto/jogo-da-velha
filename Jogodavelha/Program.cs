@@ -11,7 +11,7 @@ class Program
         Console.WriteLine("         JOGO DA VELHA");
         Console.WriteLine("=======================");
         Console.ResetColor();
-
+//adicionando cores
           Console.WriteLine();
         Console.WriteLine("Pressione ENTER para iniciar...");
         Console.ReadLine();
@@ -33,11 +33,11 @@ class Program
             Console.Clear();
             MostrarTabuleiro(tabuleiro);
 
-              Console.ForegroundColor = ConsoleColor.Red
+              Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine($"\nVez do jogador {jogador}");
             Console.ResetColor();
 
-                Console.Write("Escolha uma posição (1-9): ");
+                Console.Write("Escolha uma posição (1-9): "); // atualizando posições
 
             if (!int.TryParse(Console.ReadLine(), out int posicao))
             {
